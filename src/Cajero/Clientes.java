@@ -1,0 +1,74 @@
+//Rodriguez del Angel Erick Manuel-Practica 7 Final//
+//3°B ISC//
+
+package Cajero;
+import java.util.Scanner;
+public class Clientes {
+    String Tarjeta;
+    String NIP;
+    String Nombre;
+    String Apellido;
+    int Monto;
+    int Retiro;
+    int Consignar;
+
+    public String getTarjeta() {
+        return Tarjeta;
+    }
+
+    public void setTarjeta(String tarjeta) {
+        Tarjeta = tarjeta;
+    }
+
+    public String getNIP() {
+        return NIP;
+    }
+
+    public void setNIP(String NIP) {
+        this.NIP = NIP;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String nombre) {
+        Nombre = nombre;
+    }
+
+    public String getApellido() {
+        return Apellido;
+    }
+
+    public void setApellido(String apellido) {
+        Apellido = apellido;
+    }
+
+    public int getMonto() {
+        return Monto;
+    }
+
+    public void setMonto(int monto) {
+        Monto = monto;
+    }
+
+    public int getRetiro() {
+        return Retiro;
+    }
+
+    public void setRetiro(int retiro) {
+        Retiro = retiro;
+    }
+
+    public int getConsignar() {
+        return Consignar;
+    }
+
+    public void setConsignar(int consignar) {
+        Consignar = consignar;
+    }
+
+    public boolean equals() {
+        return false;
+    }
+}

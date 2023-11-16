@@ -1,0 +1,25 @@
+package Cajero;
+import java.util.Scanner;
+//Rodriguez del Angel Erick Manuel-Practica 7 Final//
+//3°B ISC//
+public class Billetes {
+    public Billetes() {
+    }
+
+    public Billetes(int i, int i1, int i2, int i3) {
+
+
+    }
+
+    public int getTotal() {
+        return 0;
+    }
+
+    public int getCantidad(int i) {
+        return i;
+    }
+
+    public void descontar(int i, int billetes) {
+
+    }
+}
