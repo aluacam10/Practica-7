@@ -1,3 +1,6 @@
+/Rodriguez del Angel Erick Manuel-Practica 7 Final//
+//3°B ISC//
+     
 import Cajero.Billetes;
 import java.io.*;
 import java.util.Random;
